@@ -9,7 +9,7 @@ const { Content, Sider, Footer } = Layout;
 
 const API = process.env.REACT_APP_API_URL;
 
-function App(): unknown {
+function App(): JSX.Element {
     const [isLoading, setIsLoading] = useState(true);
     const [uptime, setUptime] = useState(-1);
 
